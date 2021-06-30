@@ -26,8 +26,13 @@ function AnimalList() {
     };
 
     return (
-        <div>
-        
+        <div className="AnimalList">
+            <h2 className="section-title AnimalList-title" >Venez faire de belles rencontres !</h2>
+            <div className="cards-container">
+                <Animal {...lion} />
+                <Animal {...panda} />
+                <Animal {...butterfly} />
+            </div>
         </div>
     )
 }
