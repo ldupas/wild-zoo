@@ -1,5 +1,5 @@
 .Footer {
-    height: 20vh;
+    height: 200px;
     background-color: var(--second-color);
     display: flex;
     flex-direction: column;

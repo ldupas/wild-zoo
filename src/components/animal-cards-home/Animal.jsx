@@ -1,7 +1,7 @@
 import React from 'react';
 import './Animal.css';
 
-function Animal({name, species, age, image}) {
+function Animal({name, species, age, image, animals}) {
     return (
         <div className="Animal">
             <div className="animals-cards">
@@ -10,6 +10,7 @@ function Animal({name, species, age, image}) {
                     <h3>{name}</h3>
                     <span>Espèce: {species}</span>
                     <span>Âge : {age}</span>
+                    {/* <span>{animals.name}</span> */}
                 </div>
             </div>
         </div>
